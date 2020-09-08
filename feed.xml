@@ -1,30 +1,419 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-04T00:31:44+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Percy</title><subtitle>Latter equals never.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/09/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-09-03T15:58:56+08:00</published><updated>2020-09-03T15:58:56+08:00</updated><id>http://localhost:4000/jekyll/update/2020/09/03/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/03/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-08T11:22:21+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Percy</title><subtitle>Latter equals never.</subtitle><entry><title type="html">Begin with QEMU educational PCI device</title><link href="http://localhost:4000/jekyll/update/2020/09/05/Begin-with-QEMU-educational-PCI-device.html" rel="alternate" type="text/html" title="Begin with QEMU educational PCI device" /><published>2020-09-05T20:00:00+08:00</published><updated>2020-09-05T20:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/09/05/Begin-with-QEMU-educational-PCI%20-device</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/05/Begin-with-QEMU-educational-PCI-device.html">&lt;blockquote&gt;
+  &lt;p&gt;Author: Percy&lt;/p&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Begin with bcm2836</title><link href="http://localhost:4000/jekyll/update/2020/08/29/Begin-with-bcm2836.html" rel="alternate" type="text/html" title="Begin with bcm2836" /><published>2020-08-29T20:00:00+08:00</published><updated>2020-08-29T20:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/08/29/Begin-with-bcm2836</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/29/Begin-with-bcm2836.html">&lt;blockquote&gt;
-  &lt;p&gt;Auther: Percy&lt;/p&gt;
-
-  &lt;p&gt;Updated at 2020/8/29&lt;/p&gt;
+  &lt;p&gt;Updated at 2020/09/07&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+&lt;h2 id=&quot;0-introduction-of-pci-structure&quot;&gt;0 Introduction of PCI structure&lt;/h2&gt;
 
-&lt;p&gt;After the basic learning of file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/softmmu/vl.c&lt;/code&gt;, the directory &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/hw/&lt;/code&gt; is really attractiving for the author, which supports the emulation of hardware devices. As the consequence,  the author will try to have a rewarding tour in a specific file of this set.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;This part mainly quote from wiki &lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%A4%96%E8%AE%BE%E7%BB%84%E4%BB%B6%E4%BA%92%E8%BF%9E%E6%A0%87%E5%87%86&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Chip &lt;a href=&quot;https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2836/README.md&quot;&gt;bcm2836&lt;/a&gt;: The Broadcom chip used in the Raspberry Pi 2 Model B.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Auther: Percy Updated at 2020/8/29</summary></entry><entry><title type="html">Struct MachineClass in QEMU</title><link href="http://localhost:4000/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU.html" rel="alternate" type="text/html" title="Struct MachineClass in QEMU" /><published>2020-08-28T20:00:00+08:00</published><updated>2020-08-28T20:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU.html">&lt;blockquote&gt;
+&lt;p&gt;PCI represents Peripheral Component Interconnect.&lt;/p&gt;
+
+&lt;h3 id=&quot;01-main-concepts&quot;&gt;0.1 Main Concepts&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PCI device: A device that conforms to the PCI bus standard is called a PCI device, and the PCI bus architecture can contain multiple PCI devices.&lt;/li&gt;
+  &lt;li&gt;PCI bus: There can be multiple in the system, similar to a tree structure for expansion. Each PCI bus can connect multiple PCI devices. The upper and lower PCI bus interconnections are realized through the bridge.&lt;/li&gt;
+  &lt;li&gt;PCI bridge: Connect the link between the PCI bus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;------------------------------------------------------------------ Host bus
+	|
+	| HOST/PCI bridge
+	|						| PCI device1	| PCI device2
+------------------------------------------------------------------ PCI BUS1
+		|
+		| PCI/PCI bridge
+		|					| PCI device3
+------------------------------------------------------------------ PCI BUS2
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Other:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;PCI is a &lt;strong&gt;parallel bus&lt;/strong&gt;. In one clock cycle, 32 bits (later expanded to 64) are simultaneously transmitted. Address and data are respectively transmitted once in a clock cycle according to the protocol.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The PCI address space is &lt;strong&gt;isolated&lt;/strong&gt; from the processor address space. The processor bus and PCI bus work at their respective clock frequencies and do not interfere with each other. (with the buffers in host bridge)&lt;/p&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;The “Host Bridge” is what connects the tree of PCI busses (which are internally connected with PCI-to-PCI Bridges) to the rest of the system.  Usually the processor(s) and memory are on the “other” side of the Host Bridge.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;02-pci-device-intro&quot;&gt;0.2 PCI device intro&lt;/h3&gt;
+
+&lt;p&gt;Every PCI device has a configuration space and several address space.&lt;/p&gt;
+
+&lt;h4 id=&quot;021-pci-configuration-space&quot;&gt;0.2.1 PCI configuration space&lt;/h4&gt;
+
+&lt;p&gt;In order to implements hot-plugin, configuration space whose size is 256 bytes totally is neccessary.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Access method&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Write IO ports CFCh and CF8h. Only the first 256 bytes of PCI/PCIe devices can be accessed. As mentioned above, the whole configuration space size of PCI device is 256 bytes.&lt;/p&gt;
+
+&lt;p&gt;There are two types configuration space, agent and bridge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Agent configuration space&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	DW |    Byte3    |    Byte2    |    Byte1    |     Byte0     | Addr
+		---+---------------------------------------------------------+-----
+		 0 | 　　　　Device ID 　　　　| 　　　　Vendor ID 　　　　　|　00
+		---+---------------------------------------------------------+-----
+		 1 | 　　　　　Status　　　　　| 　　　　 Command　　　　　　|　04
+		---+---------------------------------------------------------+-----
+		 2 | 　　　　　　　Class Code　　　　　　　　|　Revision ID　|　08
+		---+---------------------------------------------------------+-----
+		 3 | 　　BIST　　| Header Type | Latency Timer | Cache Line  |　0C
+		---+---------------------------------------------------------+-----
+		 4 | 　　　　　　　　　　Base Address 0　　　　　　　　　　　|　10
+		---+---------------------------------------------------------+-----
+		 5 | 　　　　　　　　　　Base Address 1　　　　　　　　　　　|　14
+		---+---------------------------------------------------------+-----
+		 6 | 　　　　　　　　　　Base Address 2　　　　　　　　　　　|　18
+		---+---------------------------------------------------------+-----
+		 7 | 　　　　　　　　　　Base Address 3　　　　　　　　　　　|　1C
+		---+---------------------------------------------------------+-----
+		 8 | 　　　　　　　　　　Base Address 4　　　　　　　　　　　|　20
+		---+---------------------------------------------------------+-----
+		 9 | 　　　　　　　　　　Base Address 5　　　　　　　　　　　|　24
+		---+---------------------------------------------------------+-----
+		10 | 　　　　　　　　　CardBus CIS pointer　　　　　　　　　 |　28
+		---+---------------------------------------------------------+-----
+		11 |　　Subsystem Device ID　　| 　　Subsystem Vendor ID　　 |　2C
+		---+---------------------------------------------------------+-----
+		12 | 　　　　　　　Expansion ROM Base Address　　　　　　　　|　30
+		---+---------------------------------------------------------+-----
+		13 | 　　　　　　　Reserved(Capability List)　　　　　　　　 |　34
+		---+---------------------------------------------------------+-----
+		14 | 　　　　　　　　　　　Reserved　　　　　　　　　　　　　|　38
+		---+---------------------------------------------------------+-----
+		15 | 　Max_Lat　 | 　Min_Gnt　 | 　IRQ Pin　 | 　IRQ Line　　|　3C
+		-------------------------------------------------------------------
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Registers Meanings:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Device ID &amp;amp; Vendor ID: The manufacturer of a device and the specific device are marked. For example, the Vendor ID of Intel’s device is usually 0x8086, and the Device ID is determined by the manufacturer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Class code: There are three bytes in total, which are class code, subclass code, and programming interface. The class code is not only used to distinguish the device type, but also the specification of the programming interface&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;IRQ Line: The PC used to manage 16 hardware interrupts by two 8259 chips. Now in order to support symmetric multi-processors, there is APIC (Advanced Programmable Interrupt Controller), which supports the management of 24 interrupts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;IRQ Pin: PCI has 4 interrupt pins. This register indicates which pin the device is connected to.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lspci&lt;/code&gt; command to see the info of pci devices.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;parallels@parallels-Parallels-Virtual-Platform:~&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;lspci &lt;span class=&quot;nt&quot;&gt;-mk&lt;/span&gt;
+00:00.0 &lt;span class=&quot;s2&quot;&gt;&quot;Host bridge&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Intel Corporation&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;82P965/G965 Memory Controller Hub&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r02&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Parallels, Inc.&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;82P965/G965 Memory Controller Hub&quot;&lt;/span&gt;
+00:01.0 &lt;span class=&quot;s2&quot;&gt;&quot;PCI bridge&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Intel Corporation&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;82G35 Express PCI Express Root Port&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r02&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p01&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;
+
+
+parallels@parallels-Parallels-Virtual-Platform:~&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;lspci &lt;span class=&quot;nt&quot;&gt;-vv&lt;/span&gt;
+00:00.0 Host bridge: Intel Corporation 82P965/G965 Memory Controller Hub &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev 02&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+	Subsystem: Parallels, Inc. 82P965/G965 Memory Controller Hub
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- &lt;span class=&quot;nv&quot;&gt;DEVSEL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;fast &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;TAbort- &amp;lt;TAbort- &amp;lt;MAbort- &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;SERR- &amp;lt;PERR- INTx-
+	Latency: 0
+
+00:01.0 PCI bridge: Intel Corporation 82G35 Express PCI Express Root Port &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;rev 02&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;prog-if 01 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Subtractive decode]&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- &lt;span class=&quot;nv&quot;&gt;DEVSEL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;fast &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;TAbort- &amp;lt;TAbort- &amp;lt;MAbort- &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;SERR- &amp;lt;PERR- INTx-
+	Latency: 0
+	Bus: &lt;span class=&quot;nv&quot;&gt;primary&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;00, &lt;span class=&quot;nv&quot;&gt;secondary&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;01, &lt;span class=&quot;nv&quot;&gt;subordinate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;01, sec-latency&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0
+	I/O behind bridge: 00006000-00007fff
+	Memory behind bridge: e2000000-edffffff
+	Prefetchable memory behind bridge: 00000000b0000000-00000000dfffffff
+	Secondary status: 66MHz- FastB2B- ParErr- &lt;span class=&quot;nv&quot;&gt;DEVSEL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;fast &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;TAbort- &amp;lt;TAbort- &amp;lt;MAbort- &amp;lt;SERR- &amp;lt;PERR-
+	BridgeCtl: Parity+ SERR+ NoISA- VGA+ MAbort- &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: &amp;lt;access denied&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;1-create-pci-device&quot;&gt;1 Create PCI device&lt;/h2&gt;
+
+&lt;p&gt;Look into the file &lt;a href=&quot;https://github.com/qemu/qemu/blob/master/hw/misc/edu.c&quot;&gt;/hw/misc/edu.c&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;pci_edu_register_types&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;InterfaceInfo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interfaces&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;INTERFACE_CONVENTIONAL_PCI_DEVICE&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TypeInfo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu_info&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;          &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TYPE_PCI_EDU_DEVICE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parent&lt;/span&gt;        &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TYPE_PCI_DEVICE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;instance_size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EduState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;instance_init&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu_instance_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class_init&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu_class_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;// pci device init func&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;interfaces&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interfaces&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;type_register_static&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu_info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// register device structure&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;type_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pci_edu_register_types&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In func &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;edu_class_init&lt;/code&gt;, the content of configuration space is written. What’s more, the member of  PCIDeviceClass &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;realize&lt;/code&gt; is set as well.&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;edu_class_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ObjectClass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;DeviceClass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DEVICE_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;PCIDeviceClass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PCI_DEVICE_CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;realize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pci_edu_realize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pci_edu_uninit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vendor_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PCI_VENDOR_ID_QEMU&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;device_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x11e8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;revision&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PCI_CLASS_OTHERS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;set_bit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DEVICE_CATEGORY_MISC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Member &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;realize&lt;/code&gt; is a function pointer.&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;realize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PCIDevice&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;errp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The function pointed to is  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pci_edu_realize&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;pci_edu_realize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PCIDevice&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pdev&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;errp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;EduState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EDU&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pdev&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;uint8_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pci_conf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pdev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;pci_config_set_interrupt_pin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pci_conf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;msi_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pdev&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;errp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;timer_init_ms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma_timer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;QEMU_CLOCK_VIRTUAL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu_dma_timer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;qemu_mutex_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;thr_mutex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;qemu_cond_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;thr_cond&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;qemu_thread_create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;edu&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu_fact_thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                       &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;QEMU_THREAD_JOINABLE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;memory_region_init_io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mmio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OBJECT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu_mmio_ops&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;&quot;edu-mmio&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MiB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;// register MemoryRegion struct, alloc&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;pci_register_bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pdev&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PCI_BASE_ADDRESS_SPACE_MEMORY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mmio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;	&lt;span class=&quot;c1&quot;&gt;// register a bar whose type is mmio&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;2-data-communication&quot;&gt;2 Data Communication&lt;/h2&gt;
+
+&lt;p&gt;After the emulation of device info and memory region, the most significant part needs to be resolve. The establishment of communication channel between the PCI driver of linux kernel and the PCI device emulated by QEMU.&lt;/p&gt;
+
+&lt;h3 id=&quot;21-read-and-write&quot;&gt;2.1 Read and Write&lt;/h3&gt;
+
+&lt;p&gt;Let’s focus on the function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;edu_mmio_read&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;edu_mmio_write&lt;/code&gt; who have defined the I/O operations.&lt;/p&gt;
+
+&lt;p&gt;What is the real ability of this device?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A driver with I/Os, IRQs, DMAs and such.&lt;/p&gt;
+
+  &lt;p&gt;The devices behaves very similar to the PCI bridge present in the COMBO6 cards developed under the Liberouter wings.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;According to the addr which is the offset, the operator can set or get the different properties. With these various behavoirs.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;edu_mmio_read&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;addr&lt;/th&gt;
+      &lt;th&gt;size (Byte)&lt;/th&gt;
+      &lt;th&gt;info&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x00&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;const&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x04&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;EduState / addr4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x08&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;EduState / fact&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x20&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;EduState / status&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x24&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;EduState / irq_status&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x80&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;EduState / dma_state / src&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x88&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;EduState / dma_state / dst&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x90&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;EduState / dma_state / cnt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x98&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;EduState / dma_state / cmd&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;edu_mmio_write&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;addr&lt;/th&gt;
+      &lt;th&gt;size (Byte)&lt;/th&gt;
+      &lt;th&gt;info&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x04&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;EduState / addr4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x08&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;EduState / fact (Mutex)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x20&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;EduState / status&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x60&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;edu_raise_irq&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x64&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;edu_lower_irq&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x80&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;EduState / dma_state / src&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x88&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;EduState / dma_state / dst&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x90&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;EduState / dma_state / cnt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0x98&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;EduState / dma_state / cmd&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;22-dma&quot;&gt;2.2 DMA&lt;/h3&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;edu_dma_timer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;opaque&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;EduState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;opaque&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raise_irq&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EDU_DMA_RUN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EDU_DMA_DIR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EDU_DMA_FROM_PCI&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;uint64_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dst&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;edu_check_range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cnt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DMA_START&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DMA_SIZE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;dst&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DMA_START&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;pci_dma_read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pdev&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu_clamp_addr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma_buf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cnt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;uint64_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;edu_check_range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cnt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DMA_START&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DMA_SIZE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DMA_START&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;pci_dma_write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pdev&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu_clamp_addr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma_buf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cnt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EDU_DMA_RUN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EDU_DMA_IRQ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;raise_irq&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;raise_irq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;edu_raise_irq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DMA_IRQ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;dma_rw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EduState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dma_addr_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dma_addr_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;timer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EDU_DMA_RUN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;val&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;val&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;timer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;timer_mod&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dma_timer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;qemu_clock_get_ms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;QEMU_CLOCK_VIRTUAL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;According to the members of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dma_state&lt;/code&gt;, the state of DMA can be decided, is the last bit of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmd&lt;/code&gt; is 1. It means that DMA is running. The corresponding rw operation can be done with function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dma_rw&lt;/code&gt; and the bool variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Author: Percy Updated at 2020/09/07</summary></entry><entry><title type="html">Struct MachineClass in QEMU</title><link href="http://localhost:4000/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU.html" rel="alternate" type="text/html" title="Struct MachineClass in QEMU" /><published>2020-08-28T20:00:00+08:00</published><updated>2020-08-28T20:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU.html">&lt;blockquote&gt;
   &lt;p&gt;Auther: Percy&lt;/p&gt;
 
   &lt;p&gt;Updated at 2020/8/28&lt;/p&gt;
