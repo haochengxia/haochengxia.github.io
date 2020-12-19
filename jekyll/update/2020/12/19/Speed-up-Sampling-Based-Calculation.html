@@ -66,6 +66,7 @@
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">trange</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
 
+
 <span class="k">def</span> <span class="nf">eval_shap</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">):</span>    
     <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">trange</span><span class="p">(</span><span class="n">M</span><span class="p">):</span>
 		    <span class="s">''' calculate Shapley value with Monte Carlo
@@ -85,14 +86,16 @@
 
 <span class="n">procs_num</span> <span class="o">=</span> <span class="mi">5</span>
 
+
 <span class="k">def</span> <span class="nf">sub_task</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">,</span> <span class="n">ID</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">trange</span><span class="p">(</span><span class="n">M</span> <span class="o">/</span> <span class="n">procs_num</span><span class="p">):</span>
 		    <span class="s">''' calculate Shapley value with Monte Carlo
 		    ...
 		    '''</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">'task '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">ID</span><span class="p">)</span> <span class="o">+</span> <span class="s">' completed!'</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">sv</span> <span class="c1"># type(sv) -&gt; list
+    <span class="c1"># print('task of proc' + str(ID) + ' completed!')
+</span>    <span class="k">return</span> <span class="n">sv</span> <span class="c1"># type(sv) -&gt; list
 </span>
+
 <span class="k">def</span> <span class="nf">eval_shap_multi_proc</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">):</span>
     <span class="n">proc_ids</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">procs_num</span><span class="p">)]</span>
 
