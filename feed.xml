@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-19T13:25:12+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Percy</title><subtitle>Latter equals never.</subtitle><entry><title type="html">Speed up Sampling Based Calculation</title><link href="http://localhost:4000/jekyll/update/2020/12/19/Speed-up-Sampling-Based-Calculation.html" rel="alternate" type="text/html" title="Speed up Sampling Based Calculation" /><published>2020-12-19T01:00:00+08:00</published><updated>2020-12-19T01:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/12/19/Speed-up-Sampling-Based-Calculation</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/19/Speed-up-Sampling-Based-Calculation.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-19T13:46:57+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Percy</title><subtitle>Latter equals never.</subtitle><entry><title type="html">Speed up Sampling Based Calculation</title><link href="http://localhost:4000/jekyll/update/2020/12/19/Speed-up-Sampling-Based-Calculation.html" rel="alternate" type="text/html" title="Speed up Sampling Based Calculation" /><published>2020-12-19T01:00:00+08:00</published><updated>2020-12-19T01:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/12/19/Speed-up-Sampling-Based-Calculation</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/19/Speed-up-Sampling-Based-Calculation.html">&lt;blockquote&gt;
   &lt;p&gt;Auther: Percy&lt;/p&gt;
 
   &lt;p&gt;Updated at 2020/12/19&lt;/p&gt;
@@ -6,7 +6,7 @@
 
 &lt;h3 id=&quot;body&quot;&gt;Body&lt;/h3&gt;
 
-&lt;p&gt;To my best knowledge, the most of the sampling based algorithm can be simply run in parallel as we can divide the samples into parts.&lt;/p&gt;
+&lt;p&gt;To my best knowledge, the most of the sampling based algorithm can be simply run in multi-thread/parallel as we can divide the samples into parts.&lt;/p&gt;
 
 &lt;p&gt;This simple blog aims at reminding myself that we can benefit a lot with naive multiprocessing.&lt;/p&gt;
 
@@ -104,9 +104,9 @@
 
 &lt;h3 id=&quot;正文&quot;&gt;正文&lt;/h3&gt;
 
-&lt;p&gt;在我的认知中，大多数基于采样的算法都可以被很简单地并行化，因为采到的样本可以被分成多个部分。&lt;/p&gt;
+&lt;p&gt;在我的认知中，大多数基于采样的算法都可以被很简单地多线程处理/并行化，因为采到的样本可以被分成多个部分。&lt;/p&gt;
 
-&lt;p&gt;这篇简单的博文用于提醒我自己，很简单的并行也可以有不错的收益。&lt;/p&gt;
+&lt;p&gt;这篇简单的博文用于提醒我自己，很简单的多线程/并行也可以有不错的收益。&lt;/p&gt;
 
 &lt;p&gt;接下来是一个简陋的Python例子，使用蒙特卡洛方法计算Shapley值。&lt;/p&gt;
 
