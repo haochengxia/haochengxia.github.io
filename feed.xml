@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-09-08T20:17:33+08:00</updated><id>/feed.xml</id><title type="html">Percy</title><subtitle>Latter equals never.</subtitle><entry><title type="html">Begin with QEMU educational PCI device</title><link href="/jekyll/update/2020/09/05/Begin-with-QEMU-educational-PCI-device.html" rel="alternate" type="text/html" title="Begin with QEMU educational PCI device" /><published>2020-09-05T20:00:00+08:00</published><updated>2020-09-05T20:00:00+08:00</updated><id>/jekyll/update/2020/09/05/Begin-with-QEMU-educational-PCI%20-device</id><content type="html" xml:base="/jekyll/update/2020/09/05/Begin-with-QEMU-educational-PCI-device.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-19T13:19:39+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Percy</title><subtitle>Latter equals never.</subtitle><entry><title type="html">Speed up Sampling Based Calculation</title><link href="http://localhost:4000/jekyll/update/2020/12/19/Speed-up-Sampling-Based-Calculation.html" rel="alternate" type="text/html" title="Speed up Sampling Based Calculation" /><published>2020-12-19T01:00:00+08:00</published><updated>2020-12-19T01:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/12/19/Speed-up-Sampling-Based-Calculation</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/12/19/Speed-up-Sampling-Based-Calculation.html">&lt;blockquote&gt;
+  &lt;p&gt;Auther: Percy&lt;/p&gt;
+
+  &lt;p&gt;Updated at 2020/12/19&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;body&quot;&gt;Body&lt;/h3&gt;
+
+&lt;p&gt;To my best knowledge, the most of the sampling based algorithm can be simply run in parallel as we can divide the samples into parts.&lt;/p&gt;
+
+&lt;p&gt;This simple blog aims at reminding myself that we can benefit a lot with naive multiprocessing.&lt;/p&gt;
+
+&lt;p&gt;The next part is a crude example on the calculation of Shpaley value based on Monte Carlo in Python.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;single processing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;tqdm&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trange&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;eval_shap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;    
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+		    &lt;span class=&quot;s&quot;&gt;''' calculate Shapley value with Monte Carlo
+		    ...
+		    '''&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;asarray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# type(sv) -&amp;gt; list
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;multiprocessing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;tqdm&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trange&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;multiprocessing&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Pool&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;functools&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;partial&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;threads_num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sub_task&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;M&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threads_num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+		    &lt;span class=&quot;s&quot;&gt;''' calculate Shapley value with Monte Carlo
+		    ...
+		    '''&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'task '&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;' completed!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sv&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# type(sv) -&amp;gt; list
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;eval_shap_parallel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;thread_ids&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;threads_num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;pool&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Pool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;partial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sub_task&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_train&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y_test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;thread_ids&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;pool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;pool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;ret_arr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;asarray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ret_arr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;axis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;time-cost-comparison&quot;&gt;Time Cost Comparison&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Test on MacBook Pro (16-inch, 2019)&lt;/p&gt;
+
+  &lt;p&gt;Intel Core i7 - 6 cores 2.6GHz&lt;/p&gt;
+
+  &lt;p&gt;16 GB 2667MHz DDR4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# multi
+100%|██████████| 6000/6000 [01:23&amp;lt;00:00, 71.56it/s]
+100%|██████████| 6000/6000 [01:24&amp;lt;00:00, 70.99it/s]
+100%|██████████| 6000/6000 [01:26&amp;lt;00:00, 69.50it/s]
+100%|██████████| 6000/6000 [01:26&amp;lt;00:00, 69.49it/s]
+100%|██████████| 6000/6000 [01:26&amp;lt;00:00, 69.28it/s]
+
+# single
+100%|██████████| 30000/30000 [06:31&amp;lt;00:00, 76.65it/s]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;With multiprocessing, the time cost becomes a quarter of the original.&lt;/p&gt;
+
+&lt;p&gt;And the result is certainly similar. (They use different permutations here!)&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# multi
+[1172.625       843.54166667 1308.43333333 1159.20833333 1560.875
+ 1327.68333333  991.15        762.61666667 1379.56666667  520.84166667
+  994.625       906.79166667 1050.1         805.875       987.28333333
+ 1025.06666667  923.14166667 1115.40833333  995.43333333  760.525
+  916.14166667  687.3         892.63333333  912.675      1051.75833333
+ 1041.11666667 1010.83333333  718.66666667  799.10833333  960.50833333]
+ 
+# single
+[1155.29166667  863.43333333 1308.04166667 1189.74166667 1561.99166667
+ 1379.025       970.75        798.75       1313.13333333  522.35833333
+  985.5         868.38333333 1056.575       757.6        1018.25833333
+ 1027.33333333  936.275      1033.80833333  991.68333333  789.7
+  886.95        729.475       889.26666667  908.63333333 1066.10833333
+ 1056.36666667 1049.075       700.33333333  822.53333333  945.99166667]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;chinese-version&quot;&gt;Chinese Version&lt;/h2&gt;
+
+&lt;h3 id=&quot;正文&quot;&gt;正文&lt;/h3&gt;
+
+&lt;p&gt;在我的认知中，大多数基于采样的算法都可以被很简单地并行化，因为采到的样本可以被分成多个部分。&lt;/p&gt;
+
+&lt;p&gt;这篇简单的博文用于提醒我自己，很简单的并行也可以有不错的收益。&lt;/p&gt;
+
+&lt;p&gt;接下来是一个简陋的Python例子，使用蒙特卡洛方法计算Shapley值。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;单线程&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;见上文。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;多线程&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;见上文。&lt;/p&gt;
+
+&lt;h3 id=&quot;耗时对比&quot;&gt;耗时对比&lt;/h3&gt;
+
+&lt;p&gt;见上文。&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Auther: Percy Updated at 2020/12/19</summary></entry><entry><title type="html">How to validate your emulated device in QEMU?</title><link href="http://localhost:4000/jekyll/update/2020/09/20/How-to-validate-your-emulated-device-in-QEMU.html" rel="alternate" type="text/html" title="How to validate your emulated device in QEMU?" /><published>2020-09-20T20:00:00+08:00</published><updated>2020-09-20T20:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/09/20/How-to-validate-your-emulated-device-in-QEMU</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/20/How-to-validate-your-emulated-device-in-QEMU.html">&lt;blockquote&gt;
+  &lt;p&gt;Author: Percy&lt;/p&gt;
+
+  &lt;p&gt;Updated at 2020/09/07&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;0-compile-your-qemu&quot;&gt;0 Compile your qemu&lt;/h2&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Author: Percy Updated at 2020/09/07</summary></entry><entry><title type="html">Begin with QEMU educational PCI device</title><link href="http://localhost:4000/jekyll/update/2020/09/05/Begin-with-QEMU-educational-PCI-device.html" rel="alternate" type="text/html" title="Begin with QEMU educational PCI device" /><published>2020-09-05T20:00:00+08:00</published><updated>2020-09-05T20:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/09/05/Begin-with-QEMU-educational-PCI-device</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/05/Begin-with-QEMU-educational-PCI-device.html">&lt;blockquote&gt;
   &lt;p&gt;Author: Percy&lt;/p&gt;
 
   &lt;p&gt;Updated at 2020/09/07&lt;/p&gt;
@@ -413,7 +545,7 @@ parallels@parallels-Parallels-Virtual-Platform:~&lt;span class=&quot;nv&quot;&gt
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;According to the members of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dma_state&lt;/code&gt;, the state of DMA can be decided, is the last bit of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmd&lt;/code&gt; is 1. It means that DMA is running. The corresponding rw operation can be done with function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dma_rw&lt;/code&gt; and the bool variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Author: Percy Updated at 2020/09/07</summary></entry><entry><title type="html">Struct MachineClass in QEMU</title><link href="/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU.html" rel="alternate" type="text/html" title="Struct MachineClass in QEMU" /><published>2020-08-28T20:00:00+08:00</published><updated>2020-08-28T20:00:00+08:00</updated><id>/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU</id><content type="html" xml:base="/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU.html">&lt;blockquote&gt;
+&lt;p&gt;According to the members of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dma_state&lt;/code&gt;, the state of DMA can be decided, is the last bit of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmd&lt;/code&gt; is 1. It means that DMA is running. The corresponding rw operation can be done with function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dma_rw&lt;/code&gt; and the bool variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;write&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Author: Percy Updated at 2020/09/07</summary></entry><entry><title type="html">Struct MachineClass in QEMU</title><link href="http://localhost:4000/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU.html" rel="alternate" type="text/html" title="Struct MachineClass in QEMU" /><published>2020-08-28T20:00:00+08:00</published><updated>2020-08-28T20:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/28/Struct-MachineClass-in-QEMU.html">&lt;blockquote&gt;
   &lt;p&gt;Auther: Percy&lt;/p&gt;
 
   &lt;p&gt;Updated at 2020/8/28&lt;/p&gt;
