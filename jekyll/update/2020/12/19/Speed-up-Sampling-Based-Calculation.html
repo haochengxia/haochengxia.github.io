@@ -93,7 +93,7 @@
     <span class="k">print</span><span class="p">(</span><span class="s">'task '</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">ID</span><span class="p">)</span> <span class="o">+</span> <span class="s">' completed!'</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">sv</span> <span class="c1"># type(sv) -&gt; list
 </span>
-<span class="k">def</span> <span class="nf">eval_shap_parallel</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">eval_shap_multi_proc</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">):</span>
     <span class="n">thread_ids</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">threads_num</span><span class="p">)]</span>
 
     <span class="n">pool</span> <span class="o">=</span> <span class="n">Pool</span><span class="p">()</span>
