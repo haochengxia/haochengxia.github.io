@@ -1,0 +1,31 @@
+ <header class="header wrap" id="header">
+ 
+  <section class="header-owner wrap">
+    
+    <a href="{{ site.url }}/" class="avatar-wrapper">
+      <img class="avatar" src="{% if site.github.owner_gravatar_url %}{{ site.github.owner_gravatar_url}}{% else %}/images/github_ava.png{% endif %}" height="80" width="80" alt="Avatar" />
+    </a>
+    
+    <div class="name">
+      <a href="{{ site.url }}/">
+        <span id="fname">{{ site.name|split:' '|first|upcase }}</span>
+        <span id="lname">{{ site.name|split:' '|last|upcase }}</span>
+      </a>      
+    </div>
+    
+    <div class="meta">
+      <a href="{{ site.github.owner_url }}" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+      <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+      <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-o fa-lg"></i></a>
+      <a href="{{ site.url }}/feed.xml"><i class="fa fa-rss fa-lg"></i></a>
+    </div>
+
+  </section>     
+  
+  <ul class="header-navigation">
+    <li><a href="{{ site.url }}/"><i class="fa fa-home fa-lg"></i><span>Home</span></a></li>
+    <li><a href="{{ site.url }}/about/"><i class="fa fa-info fa-lg"></i><span>About</span></a></li>
+  </ul>
+
+
+ </header>

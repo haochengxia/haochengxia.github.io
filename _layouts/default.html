@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <div class="page-content" id="main">
+      <div class="wrap main-content">
+      {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+    
+    <script type="text/javascript" src="{{ site.url }}/js/headroom.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/js/main.js"></script>
+
+    </body>
+</html>
