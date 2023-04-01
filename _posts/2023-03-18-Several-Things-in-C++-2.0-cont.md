@@ -303,7 +303,7 @@ Before learn hash function, we need to know something about hashtable which is b
 
 In hashtable, if the number of elements is larger than the number of buckets, then rehashing and resize the table into 2x original size (primer).
 
-##### Example: an hash function
+##### Example: a universal hash function
 
 ```cpp
 template <typename T>
