@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Practical Vim (5)"
+title:  "Practical Vim (6-21)"
 date:   2023-04-10 22:00:00 +0800
 categories: jekyll update
 ---
